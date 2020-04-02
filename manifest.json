@@ -1,0 +1,15 @@
+{
+    "name": "Jira Github link",
+    "description": "Get Jira identifier form url link from and query github for a PR",
+    "version": "1.0",
+    "manifest_version": 2,
+    "background": {
+      "scripts": ["background/background.js"]
+    },
+    "browser_action": {},
+    "options_page": "options/options.html",
+    "permissions": [
+        "tabs",
+        "storage"
+    ]
+}
